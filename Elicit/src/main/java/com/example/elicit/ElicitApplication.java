@@ -20,18 +20,6 @@ public class ElicitApplication {
 
     public static Logger logger = LoggerFactory.getLogger(ElicitApplication.class);
     public static void main(String[] args) {
-//        try {
-//            Class.forName("com.mysql.jdbc.Driver");
-//            Connection conn = DriverManager.getConnection(
-//                    "jdbc:mysql://aws.connect.psdb.cloud/masterdb?sslMode=IDENTITY_VERIFY",
-//                    "r6arugmqzxhe5pu8okfs",
-//                    "pscale_pw_oowtKki0ded4uN2LaMAtgiJfdscR5dXNNYPeXZs9cvq");
-//            conn.close();
-//            System.out.println("Successfully connected to PlanetScale!");
-//        } catch(Exception e) {
-//            e.printStackTrace();
-//            System.exit(1);
-//        }
         SpringApplication.run(ElicitApplication.class, args);
     }
 }
